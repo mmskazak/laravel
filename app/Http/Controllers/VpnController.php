@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-class VpnPageController extends Controller {
+class VpnController extends Controller {
 
-    public function show() {
+    public function showPage() {
         return view('vpn-page');
     }
 }
